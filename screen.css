@@ -11,10 +11,6 @@ body {
   background-color: #F9F6ED;
 }
 
-html, body {
-  width: 100%;
-  overflow-x: hidden;
-}
 
 
 img {
@@ -447,19 +443,6 @@ a {
 }
 
 
-.gallery {
-  width: 500px;
-  margin-left: 150px;
-  margin-right: 150px;
-}
-
-@media screen and (max-width: 767px) {
-  .gallery {
-  background-color: green;
-  width: auto;
-  margin: 0 auto;
-}
-}
 
 .aboutus {
   width: 500px;
@@ -487,6 +470,10 @@ a {
   .contactus {
   width: auto;
   margin: 0 auto;
+  html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
 }
 }
 
